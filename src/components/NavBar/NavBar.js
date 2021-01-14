@@ -1,11 +1,10 @@
 import React from "react"
-
 import './NavBar.css'
-
 import SiteNav from './SiteNav/SiteNav.tsx'
 import AccountBar from './AccountBar/AccountBar'
 
 import CompanyLogo from '../../images/logo.svg'
+
 
 function NavBar(){
 

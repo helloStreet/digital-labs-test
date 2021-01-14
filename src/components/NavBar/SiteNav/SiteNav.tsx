@@ -1,6 +1,8 @@
 
 import React, {useState} from "react"
 import './SiteNav.css';
+import UpArrow from '../../../images/up.png';
+import DownArrow from '../../../images/down.png';
 
 function SiteNav(){
 
@@ -20,10 +22,16 @@ return(
         <label className='NavMenuItem'>Recipe Box</label>
         
             <div>
-                <label className='NavMenuItem'
-                    onClick={handleMenuDropDown}
-                    >
-                        Products</label>
+                <div className='ProductDiv'>
+                        <label className='NavMenuItem'
+                            onClick={handleMenuDropDown} >
+                            Products</label>
+                            
+                            {dropDown? (
+                        <img  className='ArrowImg' src={UpArrow} alt={UpArrow}/>
+                        ):(
+                        <img  className='ArrowImg' src={DownArrow} alt={UpArrow}/>)}                        
+                </div>
                     {dropDown && (
                         <div className='dropDownMenu'>
                         <label>Fruit</label>
@@ -34,6 +42,7 @@ return(
                         <label>Fresh Drinks</label>
                         </div>
                         )}
+                        
             </div>       
         
         <label className='NavMenuItem'>About Us</label>
