@@ -1,0 +1,22 @@
+.SiteNavDiv{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.NavMenuItem{
+padding-left: 30px;
+    font-size: 15px;
+    
+}
+
+.dropDownMenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow:darkslategrey;
+}
