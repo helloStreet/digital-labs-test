@@ -9,7 +9,7 @@ return (
 <div>
 
 <l className='LogInLabel'>Log In</l>
-<button>Create Account</button>
+<button className='AccountButton'>Create Account</button>
 
 </div>
 

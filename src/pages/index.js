@@ -10,6 +10,7 @@ import FirstIndexSection from '../components/FirstIndexSection/FirstIndexSection
 import SecondIndexSection from '../components/SecondIndexSection/SecondIndexSection.js'
 import FooterBar from '../components/FooterBar/FooterBar.js'
 
+import '../Res/Fonts'
 
 const IndexPage = () => (
   <Layout>
@@ -18,11 +19,9 @@ const IndexPage = () => (
     <FirstIndexSection/>
     <SecondIndexSection/>
     <FooterBar/>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-     
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
+    
+   
+    
    
   </Layout>
 )
