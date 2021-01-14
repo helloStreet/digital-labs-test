@@ -1,6 +1,6 @@
 import React from "react"
 import './SecondIndexSection.css'
-import Veg from '../../images/01.jpg'
+import Veg from '../../images/fullveg.jpg'
 import { Link } from "gatsby"
 function SecondIndexSection(){
 

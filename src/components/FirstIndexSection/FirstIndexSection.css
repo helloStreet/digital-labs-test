@@ -1,4 +1,3 @@
-@import '../../Res/Fonts/Khula-Light.ttf'
 
 .FirstSectionContainer{
 
@@ -20,7 +19,7 @@
 }
 
 .FirstTitle{
-   padding: 20px;
+   padding-bottom: 20px;
    font-size: 55px;
    font-weight: bold;
    text-align: left;
@@ -31,7 +30,7 @@ color: #1D1D1D;
 
 .SecondTitle{
    
-padding: 20px;
+padding-bottom: 20px;
 font-size: 40px;
 font-weight: 100;
 line-height: normal;
@@ -47,7 +46,8 @@ line-height: normal;
 }
 
 .LearnButton{
-    
+    padding: 5px;
     width: 40%;
     background-color: #A2DE96;
+    font-size: 15px;
 }

@@ -10,7 +10,7 @@ import FirstIndexSection from '../components/FirstIndexSection/FirstIndexSection
 import SecondIndexSection from '../components/SecondIndexSection/SecondIndexSection.js'
 import FooterBar from '../components/FooterBar/FooterBar.js'
 
-import '../Res/Fonts'
+
 
 const IndexPage = () => (
   <Layout>
