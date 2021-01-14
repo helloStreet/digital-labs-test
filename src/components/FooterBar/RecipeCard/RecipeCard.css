@@ -38,3 +38,19 @@ padding:10px
     color: #1D1D1D;
     padding:10px
 }
+
+.PriceDiv{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top ;
+}
+
+.Trolley{
+
+    padding: 10px;
+    background-color:#FF947B;
+    border-radius: 20px;
+   
+}

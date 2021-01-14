@@ -1,6 +1,6 @@
 import React from "react";
 import './RecipeCard.css';
-
+import Trolley from '../../../images/supermarket.svg'
 function RecipeCard(props){
 
 
@@ -11,9 +11,14 @@ function RecipeCard(props){
                      className='RecipeCardImage'/>
                 
                 <div className='DescDiv'>
-                    <label className='Description'>{props.description}</label>
-                    <label className='Price'>{props.price}</label>
+                     <label className='Description'>{props.description}</label>
+                   
+                   <div className='PriceDiv'>
+                        <label className='Price'>{props.price}</label>
+                        <img src={Trolley} alt='default'
+                        className='Trolley'/>
 
+                    </div>
                 </div>
         </div>
     )

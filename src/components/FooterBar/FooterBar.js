@@ -5,6 +5,7 @@ import'../../Res/Strings'
 import recipe1 from '../../images/10.jpg'
 import recipe2 from '../../images/11.jpg'
 import recipe3 from '../../images/12.jpg'
+import Arrow from '../../images/arrow.svg'
 import { Recipe1, Recipe2, Recipe3 } from "../../Res/Strings"
 
 import './FooterBar.css';
@@ -13,9 +14,17 @@ function FooterBar(){
 
     return(
             <div>
-                <div>
-                    <l>Latest Recipes</l>
+                <div className='LatestRow'>
+                    <l className='Latest'>Latest Recipes</l>
+                    <div>
+                        <img className='LeftArrow'
+                        src={Arrow} 
+                        alt={Arrow}/>
 
+                        <img className='RightArrow'
+                        src={Arrow} 
+                        alt={Arrow}/>       
+                    </div>
                 </div>
 
                 <div className='RecipeRow'>
