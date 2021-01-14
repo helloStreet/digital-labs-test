@@ -8,12 +8,10 @@
 }
 
 .VegPlateImage{
-
     padding-top: 120px;
 }
 
 .PlateDiv{
-
     background-color: #F1F7EA;
     min-width: 66%;
 }
@@ -23,17 +21,16 @@
    font-size: 55px;
    font-weight: bold;
    text-align: left;
-font: normal normal 800 70px/80px ;
-letter-spacing: 0px;
-color: #1D1D1D;
+   font: normal normal 800 70px/80px ;
+   letter-spacing: 0px;
+   color: #1D1D1D;
 }
 
 .SecondTitle{
-   
-padding-bottom: 20px;
-font-size: 40px;
-font-weight: 100;
-line-height: normal;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: normal;
 }
 
 .TextDiv{

@@ -32,14 +32,16 @@ return(
                         ):(
                         <img  className='ArrowImg' src={DownArrow} alt={UpArrow}/>)}                        
                 </div>
+
+            
                     {dropDown && (
                         <div className='dropDownMenu'>
-                        <label>Fruit</label>
-                        <label>Vegetables</label>
-                        <label>Eggs</label>
-                        <label>Milk</label>
-                        <label>Meat</label>
-                        <label>Fresh Drinks</label>
+                            <label>Fruit</label>
+                            <label>Vegetables</label>
+                            <label>Eggs</label>
+                            <label>Milk</label>
+                            <label>Meat</label>
+                            <label>Fresh Drinks</label>
                         </div>
                         )}
                         

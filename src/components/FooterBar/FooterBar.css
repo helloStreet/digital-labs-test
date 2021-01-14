@@ -5,7 +5,6 @@
 }
 
 .Latest{
-
     font-size: 30px;
 }
 
@@ -16,6 +15,5 @@
 }
 
 .LeftArrow{
-
     transform: scaleX(-1);
 }

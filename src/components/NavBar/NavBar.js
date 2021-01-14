@@ -16,10 +16,6 @@ return (
             <AccountBar></AccountBar>
 
     </div>
-
-
-
-
 )
 
 }

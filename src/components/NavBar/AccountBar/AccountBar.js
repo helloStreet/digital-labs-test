@@ -6,16 +6,13 @@ function AccountBar(){
 
 return (
 
-<div>
+        <div>
 
-<l className='LogInLabel'>Log In</l>
-<button className='AccountButton'>Create Account</button>
+            <l className='LogInLabel'>Log In</l>
+            <button className='AccountButton'>Create Account</button>
 
-</div>
-
-)
-
-
+        </div>
+ ) 
 }
 
 export default AccountBar;

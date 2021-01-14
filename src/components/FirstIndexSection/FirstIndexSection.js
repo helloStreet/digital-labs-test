@@ -15,7 +15,7 @@ function FirstIndexSection(){
 
             <div className='PlateDiv'>
                 <img src={VegPlate}
-                className='VegPlateImage'></img>
+                    className='VegPlateImage'></img>
 
             </div>
 
